@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trophée Presse Citron/BnF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="icon" type="image/png" href="./images/favicon-vide.png"/>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Conteneur principal qui occupe toute la hauteur -->
+    <div class="container-fluid main-container d-flex flex-column min-vh-100 p-0">
+        <header class="navbar fixed-top navbar-expand-lg navbar-light bg-custom px-1">
+            <div class="container">
+                <!-- Bouton hamburger -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation" style="background-color: transparent; border: none;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navigation centré -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#participate">Participation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#actus">Actus</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex-grow-1 d-flex">
+            <div class="background-fixed">
+                <!-- Fond fixe, optionnellement vide ou avec du contenu -->
+            </div>
+
+            <!-- Image en haut à gauche pour les versions responsives -->
+            <img src="./images/logo-responsive.png" class="img-responsive-top-left d-block d-md-none" alt="Image Responsive">
+
+            <div class="container-fluid">
+                <!-- Première ligne pour le contenu principal -->
+                <div class="row">
+                    <!-- Colonne gauche pour l'image -->
+                    <div class="col-lg-3 col-md-4 d-none d-md-block sidebar">
+                        <img src="./images/titre.png" class="img-fluid" alt="Image Côté Gauche">
+                    </div>
+
+                    <!-- Colonne principale pour le contenu -->
+                    <div class="col-lg-7 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+                        <!-- Section Participer -->
+                        <section class="section d-flex flex-column custom-margin p-2" id="participate">
+                            <div class="ligne-bloc text-center">
+                                Le Trophée Presse Citron / BnF est de retour !
+                                <br/>Pour participer au concours, envoyez vos dessins avant le 15 mars 2025.
+                            </div>
+                            <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                                <a class="btn btn-custom" href="./media/reglement_concours_etudiant.pdf" target="_blank">RÈGLEMENT</a>
+                                <a class="btn btn-custom-color" href="mailto:pressecitron@edu.ecole-estienne.fr?subject=Concours%20presse%20citron%20%C3%A9tudiants.&body=J'inscris%20ici%20%3A%20%0A&#8226;&nbsp;mon%20pr%C3%A9nom%20et%20mon%20nom%0A&#8226;&nbsp;le%20nom%20de%20mon%20%C3%A9cole%0A%0AFormat%20num%C3%A9rique%20A5,%20PDF,%20300%20dpi,%20une%20seule%20image%20par%20fichier.%0ASi%20vous%20envoyez%20plusieurs%20dessins,%20merci%20de%20les%20num%C3%A9roter.%0A%0A" role="button">ENVOYER MES DESSINS</a>
+                            </div>
+                        </section>
+
+                        <!-- Section Présentation -->
+                        <div class="presentation container-fluid flex-column align-items-center justify-content-center my-4" id="presentation">
+                            <!-- <h1>Présentation</h1> -->
+                            <h3>
+                                À&nbsp;l’occasion de&nbsp;la&nbsp;Semaine de&nbsp;la&nbsp;Presse et des Médias, l’École&nbsp;Estienne organise, en&nbsp;partenariat avec&nbsp;la&nbsp;BnF, l’association Dessinez&nbsp;Créez Liberté et&nbsp;la&nbsp;Mairie du&nbsp;13<sup>e</sup> arrondissement, la&nbsp;nouvelle édition du&nbsp;Trophée&nbsp;Presse&nbsp;Citron/BnF. Ce&nbsp;double concours, ouvert aux&nbsp;étudiants et&nbsp;aux&nbsp;dessinateurs professionnels, a&nbsp;pour&nbsp;objectif de&nbsp;soutenir et&nbsp;de&nbsp;développer le&nbsp;dessin de&nbsp;presse et la liberté d'expression.
+                            </h3>
+                            <a class="btn btn-custom my-2" href="./media/dossier_presse_presse_citron_2023.pdf" target="_blank">DOSSIER DE PRESSE<!-- &nbsp;DU&nbsp;CONCOURS&nbsp;&Eacute;TUDIANTS --></a>
+                        </div>
+                        <div class="container actus" id="actus">
+                            <h1>Actualités</h1>
+                        <div class="lots">
+                            <h3>Les lots de nos partenaires</h3>
+                            <div class="scrolling-wrapper">
+                                <div class="card"><img src="images/lot 1.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 2.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 3.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 4.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 5.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 6.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 7.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 8.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 9.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 10.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 11.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 12.jpg" class="img-archiv" alt=""></div>
+                                <div class="card"><img src="images/lot 13.jpg" class="img-archiv" alt=""></div>
+                            </div>
+                        </div>
+                
+                
+                        <div class="carousel-wrapper">
+                            <div id="carouselExample" class="carousel carousel slide">
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                              </div>
+                              <div class="carousel-inner w-100" height="100">
+                                <div class="carousel-item active">
+                                  <div class="row align-items-center justify-content-center">
+                                    <div class="caption col-12 col-md-12 col-lg-6">
+                                      <h3>Atelier de dessin avec Dessinez Créez Liberté</h3>
+                                      <p>En collaboration avec le collectif Marge, Dessinez Créez Liberté (DCL) 
+                                        organise un atelier de dessin de presse le samedi 2 mars de 14h30 à 17h30 à Paris 13<sup>e</sup>. 
+                                        Réservé aux 18-25 ans, c'est l'occasion idéale pour se préparer au concours du Trophée Presse Citron / BnF et au « Prix auquel vous avez échappé ». 
+                                        <br>
+                                        Pour toute information et/ou inscription, merci de contacter par mail : lodi@dessinezcreezliberte.com.
+                                      </p>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6">
+                                      <img src="images/ptits citrons.jpg" alt="img1" class="img-fluid">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                  <div class="row align-items-center">
+                                    <div class="caption col-12 col-md-12 col-lg-6">
+                                      <h3>Atelier de dessin à la Fonderie de l'Image</h3>
+                                      <p>Le Campus Fonderie de l'Image poursuit son partenariat de longue date avec Presse Citron 
+                                        et organise depuis plus de 10 ans un workshop captivant : les étudiants en DN MADE avaient trois jours 
+                                        pour créer leurs dessins de presse, avec un jury, évaluant méticuleusement leurs créations.
+                                      </p>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6">
+                                      <img src="images/fonderie de l'image.jpg" alt="img1" class="img-fluid">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                  <div class="row justify-content-center align-items-center">
+                                    <div class="caption col-12 col-md-12 col-lg-6">
+                                      <h3>P'tits citrons : quand les plus jeunes s'essayent aussi au dessin de presse aux côtés des professionnels</h3>
+                                      <p>Dans le cadre du partenariat noué il y a dix ans entre la Bibliothèque nationale de France et l’École Estienne, 
+                                        le Trophée Presse Citron/BnF s’adresse aujourd’hui également aux plus jeunes. Le projet pédagogique nommé Les "P’tits Citrons" se déroule de janvier à mai. 
+                                        Il concerne trois classes de primaire du 13<sup>e</sup> arrondissement choisies via le réseau CLEMI-Paris et comprend, pour chacune des classes participantes : 
+                                        un atelier pédagogique à la BnF, une séance de travail sur des événements d’actualité, un atelier de dessin en classe animé par Agnès Lanchon dessinatrice de presse, 
+                                        une séance de restitution avec remise des récompenses, et pour clôturer l’événement, une visite de l’École Estienne.
+                                      </p>
+                                    </div>
+                                    <div class="col-12 col-md-12 col-lg-6">
+                                      <img src="images/dcl.jpg" alt="img1" class="img-fluid">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <!--end actus-->
+                          
+
+
+                        
+
+                    <!-- Colonne droite -->
+                    <div class="col-lg-2 col-md-4 d-none d-md-block sidebar-right">
+                        <img src="./images/32eme.png" class="img-fluid" alt="Image Côté Droit">
+                    </div>
+                </div>
+                <!-- Section Agenda -->
+                <div class="agenda container-fluid my-4" id="agenda">
+                    <h1>Agenda</h1>
+                    <section class="row">
+                        <article class="column col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h3>Déroulement du concours</h3>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>janvier, février, mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>19 janvier</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>15 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>18 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>19 - 26 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                  <p>Vote en ligne</p>
+                                </article>
+                            </div>
+                            <hr>
+                        </article>
+        
+                        <article class="column col-12 col-sm-12 col-md-12 col-lg-6">
+                            <h3>Expositions et événements</h3>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>1er - 15 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>28 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>18 mars - 5 avril</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                              <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>20 - 30 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                            <div class="row align-items-center">
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h2>à partir du 28 mars</h2>
+                                </article>
+                                <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <p>blabla</p>
+                                </article>
+                            </div>
+                            <hr>
+                        </article>
+                    </section>
+                </div>
+            </div>        
+
+        <footer class="footer bg-custom text-center py-3">
+            <div class="partenaires">
+                <div class="logo-container">
+                  <div class="logo-slide">
+                      <img src="images/LOGO-1.png"/>
+                      <img src="images/LOGO-2.png"/>
+                      <img src="images/LOGO-3.png"/>
+                      <img src="images/LOGO-4.png"/>
+                      <img src="images/LOGO-5.png"/>
+                      <img src="images/LOGO-6.png"/>
+                      <img src="images/LOGO-7.png"/>
+                      <img src="images/LOGO-8.png"/>
+                      <img src="images/LOGO-9.png"/>
+                      <img src="images/LOGO-10.png"/>
+                      <img src="images/LOGO-11.png"/>
+                      <img src="images/LOGO-12.png"/>
+                      <img src="images/LOGO-13.png"/>
+                      <img src="images/LOGO-14.png"/>
+                      <img src="images/LOGO-15.png"/>
+                      <img src="images/LOGO-16.png"/>
+                      <img src="images/LOGO-17.png"/>
+                      <img src="images/LOGO-18.png"/>
+                      <img src="images/LOGO-20.png"/>
+                      <img src="images/LOGO-21.png"/>
+                      <img src="images/LOGO-22.png"/>
+                      <img src="images/LOGO-23.png"/>
+                      <img src="images/LOGO-24.png"/>  
+                  </div>
+                </div>
+              </div>  
+        </footer>
+    </div>
+    <!-- Inclusion des scripts Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('a.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href').substring(1); // Récupère l'ID de l'ancre
+                const targetElement = document.getElementById(targetId);
+    
+                if (targetElement) {
+                    e.preventDefault();
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    const elementPosition = targetElement.offsetTop;
+                    const offsetPosition = elementPosition - navbarHeight;
+    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
