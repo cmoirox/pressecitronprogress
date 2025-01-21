@@ -97,7 +97,7 @@ body {
 }
 
 .custom-margin {
-    margin-top: 41rem;
+    margin-top: 40rem;
     margin-bottom: 10rem;
     align-items: center;
 }
@@ -407,6 +407,14 @@ img {
     }
     to {
         transform: translateX(-50%);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .custom-margin {
+        margin-top: 48rem;
+        margin-bottom: 5rem;
+        /* Autres ajustements spécifiques aux grands écrans si nécessaire */
     }
 }
 
