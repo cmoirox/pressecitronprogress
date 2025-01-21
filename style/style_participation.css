@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'lecitroncamordregular';
+    src: url('./fonts/lecitroncamord-regular-webfont.eot');
+    src: url('./fonts/lecitroncamord-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.woff2') format('woff2'),
+         url('./fonts/lecitroncamord-regular-webfont.woff') format('woff'),
+         url('./fonts/lecitroncamord-regular-webfont.ttf') format('truetype'),
+         url('./fonts/lecitroncamord-regular-webfont.otf') format('opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.svg#lecitroncamordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'lecitroncamordregular', sans-serif;
+    background-color: #fff4ad;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.row.g-5 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+  
+  
+
+.col-md-6.text-center {
+    background-color: rgba(255, 244, 173, 0.9); 
+    padding: 20px;           
+    padding-inline: 5px;
+    border: 1px solid #3c0d9c;   
+    border-radius: 10px;       
+    margin-bottom: 10px;     
+}
+  
+ 
+.col-md-6.text-center h3 {
+    font-size: 1.5rem;        
+    margin-bottom: 1rem;      
+    color: #3c0d9c;              
+}
+  
+
+.btn-custom-color {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 52px;
+    transition: all 0.3s ease;
+    background-color: #3c0d9c;
+    color: #fff;
+    border: none;
+    margin: 0.5rem;
+}
+
+.btn-custom-color:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #717171;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+    border: 1px solid #3c0d9c;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 52px;
+    transition: all 0.3s ease;
+    background-color: #fff4ad;
+    color: #3c0d9c;
+    margin: 0.5rem;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 1199.98px) {
+    body {
+      font-size: 0.95rem;
+    }
+    .col-md-6.text-center {
+      padding: 15px; 
+      margin-bottom: 8px;
+    }
+    .col-md-6.text-center h3 {
+      font-size: 1.3rem;
+    }
+    .btn-custom-color,
+    .btn-secondary {
+      font-size: 0.8125rem;
+      min-height: 48px;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    body {
+      font-size: 0.9rem;
+    }
+    .row.g-5 {
+      margin-top: 2rem;
+    }
+    .col-md-6.text-center {
+      width: 90%;
+      padding: 10px;
+    }
+    .col-md-6.text-center h3 {
+      font-size: 1.2rem;
+    }
+    .btn-custom-color,
+    .btn-secondary {
+      font-size: 0.75rem;
+      padding: 0.4rem 0.75rem;
+    }
+  }
+
+  
+  @media (max-width: 575.98px) {
+    body {
+      font-size: 0.85rem;
+      padding: 0 1rem;
+    }
+    .col-md-6.text-center {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    .col-md-6.text-center h3 {
+      font-size: 1.1rem;
+    }
+    .btn-custom-color,
+    .btn-secondary {
+      font-size: 0.7rem;
+      padding: 0.35rem 0.5rem;
+      min-height: 44px;
+    }
+  }
+  
+
+
+  
